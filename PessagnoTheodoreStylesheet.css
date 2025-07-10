@@ -1,1 +1,8 @@
-PessagnoTheodoreStylesheet.css
+body{
+background-color: lightblue;
+}
+
+h1{
+color: darkblue;
+text-align: center;
+}
