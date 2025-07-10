@@ -1,8 +1,20 @@
 body{
-background-color: burlywood;
+    background-color: burlywood;
 }
 
 h1{
-color: chartreuse;
-text-align: center;
+    color: chartreuse;
+    text-align: center;
+}
+
+p{
+    
+}
+
+boldtext{
+    
+}
+
+italictext{
+    
 }
