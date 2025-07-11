@@ -40,12 +40,21 @@ ul{
     background-color: #f1f1f1;
 }
 
-li a{
+li.menu{
+    float: left;
+}
+
+li.menu a{
     display: block;
+    color: white;
+    text-align: center;
     padding: 8px 16px;
     text-decoration: none;
 }
 
+li.menu a:hover{
+    background-color: #111;
+}
 /*
 
 */
