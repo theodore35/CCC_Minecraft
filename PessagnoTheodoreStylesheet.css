@@ -25,6 +25,13 @@ code{
     background-color: GhostWhite;
 }
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #f2f2f2;
+}
+
 /*
 
 */
