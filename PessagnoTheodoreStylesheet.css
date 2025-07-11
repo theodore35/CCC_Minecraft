@@ -21,6 +21,13 @@ span.italictext{
     font-style: italic;
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
 code{
     background-color: GhostWhite;
 }
