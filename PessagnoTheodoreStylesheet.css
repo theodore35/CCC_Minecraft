@@ -27,30 +27,4 @@ code{
 
 /*
 
-8) Open your HTML file for editing. Using the <span> element with the class attribute, apply the "boldtext" and "italictext"
-classes that you created in your CSS file to a few words of text. Apply "boldtext" only to some text, apply "italictext" only
-to some other text, and apply both classes to yet some other text on your page. Note that "boldtext" should not be applied 
-inside of headings because they are already formatted in bold text by default. Hint: An example of the HTML code you need for
-this is shown in the Week 2 module in the Content area of the classroom.
-
-Save your HTML file, and re-validate your HTML file here.
-
-Validation Requirements:
-
-Before submitting your web site:
-
-Validate your HTML file here, using the "Validate by File Upload" option, and fix any errors that the validator identifies
-before submitting your web site for grading.
-Validate your CSS file here, using the "Validate by File Upload" option, and fix any errors that the validator identifies
-before submitting your web site for grading.
-Note: It is critical that you debug and fix ALL errors identified by these two code validators before submitting your 
-assignments. Contact your instructor for assistance if you are having difficulty debugging and fixing your errors because 
-it is imperative that your code files pass validation.
-
-Submission Instructions: Create a zip file containing all files related to your web page (.html file, .css file, image
-files, etc). Make sure you maintain the necessary directory structure in your zip file so that your webpages will view
-correctly when unzipped. In other words, if your images are in a sub-folder on your computer, in relation to the folder
-containing your .html file, then you need to maintain that same directory structure in your zip file, too. Submit only 
-the zip file for grading.
-
 */
