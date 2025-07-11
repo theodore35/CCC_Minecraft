@@ -27,6 +27,7 @@ img.screenshot{
     width: 55vw; /* vw is percentage based on view point */
     min-width: 330px;
     height: auto;
+    border-radius: 10px;
 }
 img.icon{
     width: 150px;
