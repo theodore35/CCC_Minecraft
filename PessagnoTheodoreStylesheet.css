@@ -3,7 +3,7 @@ body{
     /*background-color: burlywood;*/
     /*padding-top: 250px;*/
     background-image: url("images/dirt.png");
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 }
 
 h1,h2,h3,h4{
