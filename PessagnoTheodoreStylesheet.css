@@ -9,7 +9,7 @@ body{
     max-width: 75%;
     background-color: burlywood;
     min-width: 500px;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
     padding: 5px;
@@ -65,8 +65,8 @@ img.icon{
 }
 .header{
     width: 100%;
-    height: 200px;
-    /*position: fixed;  /*Broken, hovers over page content*/
+    height: 50px;
+    position: fixed;  /*Broken, hovers over page content*/
 }
 
 code{
