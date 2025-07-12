@@ -3,6 +3,7 @@ body{
     /*padding-top: 250px;*/
     background-image: url("images/dirt.png");
     background-repeat: repeat;
+    margin: 0;
 }
 .content {
     max-width: 75%;
