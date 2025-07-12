@@ -67,10 +67,14 @@ code{
 
 /* Navigation */
 
+.active {
+  background-color: #04AA6D;
+}
+
 ul{
     width: 100%;
     height: 250px;
-    background-image: src"images/grass_block_wrap.png";
+    background-image: src="images/grass_block_wrap.png";
     background-repeat: repeat-x;
 }
 
