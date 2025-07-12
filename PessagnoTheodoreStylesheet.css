@@ -97,7 +97,7 @@ li.nav a:hover{
 }
 
 
- .responsive {
+.responsive {
   padding: 0 6px;
   float: left;
   width: 24%;
@@ -112,10 +112,4 @@ li.nav a:hover{
   .responsive {
     width: 100%;
   }
-}
-
- .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
