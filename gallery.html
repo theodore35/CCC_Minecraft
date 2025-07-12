@@ -25,7 +25,27 @@ div.gallery img {
 * {
   box-sizing: border-box;
 }
-
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 
 <div class="header">
@@ -41,27 +61,30 @@ div.gallery img {
 <h2>Screenshot Gallery</h2>
 <div class="responsive">
   <div class="gallery">
-    <a href="dirt.png"><img src="images/dirt.png" alt="dirt" width="600" height="400"></a>
+    <a href="images/Cherry_Lane.png"><img src="images/Cherry_Lane.png" alt="gallery" width="600" height="400"></a>
   </div>
 </div>
 
  <div class="responsive">
   <div class="gallery">
-    <a href="dirt.png"><img src="images/dirt.png" alt="dirt" width="600" height="400"></a>
+    <a href="images/Henya_P_House.png"><img src="images/Henya_P_House.png" alt="gallery" width="600" height="400"></a>
   </div>
 </div>
  
  <div class="responsive">
   <div class="gallery">
-    <a href="dirt.png"><img src="images/dirt.png" alt="dirt" width="600" height="400"></a>
+    <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" alt="gallery" width="600" height="400"></a>
   </div>
 </div>
  
  <div class="responsive">
   <div class="gallery">
-    <a href="dirt.png"><img src="images/dirt.png" alt="dirt" width="600" height="400"></a>
+    <a href="images/Villager_Hall.png"><img src="images/Villager_Hall.png" alt="gallery" width="600" height="400"></a>
   </div>
 </div>
+ 
+<div class="clearfix"></div>
+
 </body>
 </html>
 
