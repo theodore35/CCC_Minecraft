@@ -57,6 +57,11 @@ img.icon{
     padding: 30px 15px;
 }
 
+.patterned-background{
+    background-image: src"images/grass_block_wrap.png";
+    background-repeat: repeat-x;
+}
+
 code{
     background-color: GhostWhite;
 }
