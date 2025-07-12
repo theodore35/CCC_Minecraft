@@ -71,8 +71,7 @@ img.icon{
 .header{
     width: 100%;
     height: 250;
-    position: absolute;
-    top: 0;
+    position: fixed;
 }
 
 
