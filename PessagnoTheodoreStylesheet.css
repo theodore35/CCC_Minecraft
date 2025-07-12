@@ -9,6 +9,7 @@ body{
     background-color: burlywood;
     min-width: 500px;
     margin: auto;
+    padding: 5px;
 }
 
 h1,h2,h3,h4{
