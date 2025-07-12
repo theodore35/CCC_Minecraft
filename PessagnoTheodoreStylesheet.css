@@ -60,23 +60,18 @@ img.icon{
     padding: 30px 15px;
 }
 */
-.patterned-background{
-    background-image: src"images/grass_block_wrap.png";
-    background-repeat: repeat-x;
-}
 
 code{
     background-color: GhostWhite;
 }
 
 /* Navigation */
-/*
+
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    width: 100%;
+    height: 250px;
+    background-image: src"images/grass_block_wrap.png";
+    background-repeat: repeat-x;
 }
 
 li.menu{
@@ -92,6 +87,6 @@ li.menu a{
 }
 
 li.menu a:hover{
-    background-color: #111;
+    background-image: src="images/block_break.png";
 }
-*/
+
