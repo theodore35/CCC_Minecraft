@@ -8,6 +8,30 @@
 <meta name="keywords" content="Minecraft, Survival, Creative, Hardcore">
 <meta name="author" content="Theodore Pessagno">
 <link rel="stylesheet" type="text/css" href="PessagnoTheodoreStylesheet.css">
+
+<style>
+  div.gallery{
+    width:1000px;
+    display: flex;
+  }
+  div.gallery img{
+    width: 100%;
+    height: auto;
+    filter: greyscale(100%);
+    transition: transform 0.5s;
+  }
+  div.gallery img:hover{
+    width: 100%;
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: greyscale(0%);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
 </head>
 <body>
 <!-- Nav Bar -->
@@ -20,6 +44,12 @@
       <li class="nav active"><a href="news.html">News</a></li>
     </ul>
   </div>
+
+  <div class="gallery">
+    <a><img src="images/dirt"></a>
+
+  </div>
+
 </body>
 </html>
 
