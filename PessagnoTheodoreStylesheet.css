@@ -1,6 +1,4 @@
 body{
-    /*background-color: burlywood;*/
-    /*padding-top: 250px;*/
     background-image: url("images/dirt.png");
     background-repeat: repeat;
     margin: 0;
@@ -33,6 +31,20 @@ span.italictext{
     font-style: italic;
 }
 
+
+div.gallery{
+    width: 75vw;
+    display: flex;
+}
+div.gallery img{
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+div.gallery img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
 img.screenshot{
     width: 25vw; /* vw is percentage based on view point */
     min-width: 100px;

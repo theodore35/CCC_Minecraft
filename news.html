@@ -15,19 +15,6 @@
     padding: 0;
     /*box-sizing: border-box;*/
   }
-  div.gallery{
-    width: 75vw;
-    display: flex;
-  }
-  div.gallery img{
-    filter: grayscale(100%);
-    transition: transform 0.5s;
-  }
-  div.gallery img:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    filter: grayscale(0);
-  }
 /*responsive*/
 .responsive {
     padding: 0 6px;
@@ -44,11 +31,6 @@
     .responsive {
       width: 100%;
     }
-  }
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
   }
 </style>
 
@@ -78,36 +60,7 @@
   </div>
 
   <!-- Content -->
-  <div class="content">
-    <div class="gallery">
-      <span><img src="images/dirt.png" alt="dirt"></span>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a href="images/Cherry_Lane.png"><img src="images/Cherry_Lane.png" class="screenshot" alt="gallery"></a>
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a href="images/Henya_P_House.png"><img src="images/Henya_P_House.png" class="screenshot" alt="gallery"></a>
-      </div>
-    </div>
-    
-    <div class="responsive">
-      <div class="gallery">
-        <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" class="screenshot" alt="gallery"></a>
-      </div>
-    </div>
-    
-    <div class="responsive">
-      <div class="gallery">
-        <a href="images/Villager_Hall.png"><img src="images/Villager_Hall.png" class="screenshot" alt="gallery"></a>
-      </div>
-    </div>
-
-  </div>
+  
 </body>
 </html>
 

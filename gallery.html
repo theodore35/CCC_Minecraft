@@ -11,18 +11,10 @@
 <link rel="stylesheet" type="text/css" href="PessagnoTheodoreStylesheet.css">
 
 <style>
-  div.gallery {
-    border: 1px solid #ccc;
-  }
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  * {
-    box-sizing: border-box;
+  *{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
   }
   .responsive {
     padding: 0 6px;
@@ -39,11 +31,6 @@
     .responsive {
       width: 100%;
     }
-  }
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
   }
 </style>
 </head>
@@ -74,31 +61,35 @@
 
 <!-- Content -->
 <h2>Screenshot Gallery</h2>
-<div class="responsive">
+<div class="content">
   <div class="gallery">
-    <a href="images/Cherry_Lane.png"><img src="images/Cherry_Lane.png" alt="gallery" width="600" height="400"></a>
+    <span><img src="images/dirt.png" alt="dirt"></span>
   </div>
-</div>
 
- <div class="responsive">
-  <div class="gallery">
-    <a href="images/Henya_P_House.png"><img src="images/Henya_P_House.png" alt="gallery" width="600" height="400"></a>
+  <div class="responsive">
+    <div class="gallery">
+      <a href="images/Cherry_Lane.png"><img src="images/Cherry_Lane.png" class="screenshot" alt="gallery"></a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a href="images/Henya_P_House.png"><img src="images/Henya_P_House.png" class="screenshot" alt="gallery"></a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" class="screenshot" alt="gallery"></a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a href="images/Villager_Hall.png"><img src="images/Villager_Hall.png" class="screenshot" alt="gallery"></a>
+    </div>
   </div>
 </div>
- 
- <div class="responsive">
-  <div class="gallery">
-    <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" alt="gallery" width="600" height="400"></a>
-  </div>
-</div>
- 
- <div class="responsive">
-  <div class="gallery">
-    <a href="images/Villager_Hall.png"><img src="images/Villager_Hall.png" alt="gallery" width="600" height="400"></a>
-  </div>
-</div>
- 
-<!-- Nav Bar <div class="clearfix"></div> -->
 
 </body>
 </html>
