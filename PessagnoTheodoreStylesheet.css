@@ -77,7 +77,7 @@ code{
 ul.nav{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
     background-image: url("images/grass_block_wrap.png");
     background-repeat: repeat-x;
@@ -89,7 +89,8 @@ li.nav a{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    font-size: medium;
+    padding: 15px 20px;
     text-decoration: none;
 }
 li.nav a:hover{
