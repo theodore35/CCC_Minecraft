@@ -5,11 +5,15 @@ body{
 }
 .content {
     max-width: 75%;
-    background-color: burlywood;
+    background-color: ghostwhite;
     min-width: 500px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
 }
 
 h1,h2,h3,h4{
@@ -50,7 +54,7 @@ img.screenshot{
     min-width: 100px;
     height: auto;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 img.icon{
     width: 75px;
@@ -115,7 +119,11 @@ li.nav a:hover{
     background-image: url("images/block_break.png");
 }
 /*Table*/
-table, tr, td{
+table{
+    width: 75%;
+}
+table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
+    font-size: 16;
 }
