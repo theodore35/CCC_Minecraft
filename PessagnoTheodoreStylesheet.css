@@ -31,19 +31,19 @@ span.italictext{
     font-style: italic;
 }
 
-
+/* Gallery and Images */
 div.gallery{
     width: 75vw;
     display: flex;
 }
 div.gallery img{
-    filter: grayscale(100%);
+    filter: grayscale(100%); /*make pictures grey*/
     transition: transform 0.5s;
 }
 div.gallery img:hover{
     cursor: pointer;
     transform: scale(1.1);
-    filter: grayscale(0);
+    filter: grayscale(0); /*add color*/
 }
 img.screenshot{
     width: 25vw; /* vw is percentage based on view point */
@@ -57,7 +57,6 @@ img.icon{
     height: 75px;
     border-radius: 50%;
 }
-
 .column {
     float: left;
     width: 33.33%;
@@ -68,12 +67,19 @@ img.icon{
     display: table;
 }
 
+/* Other */
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
 }
+
+code{
+    background-color: GhostWhite;
+}
+
+/* Navigation */
 .header{
     width: 100%;
     height: 50px;
@@ -83,12 +89,6 @@ img.icon{
     height: 50px;
     position: fixed;
 }
-
-code{
-    background-color: GhostWhite;
-}
-
-/* Navigation */
 .active {
     background-color: #04AA6D;
 }
@@ -114,5 +114,8 @@ li.nav a{
 li.nav a:hover{
     background-image: url("images/block_break.png");
 }
-
-
+/*Table*/
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
