@@ -6,8 +6,8 @@ body{
     background-repeat: repeat;
 }
 .content {
-    max-width: 65vw;
-    background-color:burlywood;
+    max-width: 75%;
+    background-color: burlywood;
     min-width: 500px;
     margin: auto;
 }
