@@ -8,7 +8,45 @@
 <meta name="keywords" content="Minecraft, Survival, Creative, Hardcore">
 <meta name="author" content="Theodore Pessagno">
 <link rel="stylesheet" type="text/css" href="PessagnoTheodoreStylesheet.css">
-</head>
+
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+ .responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+ .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 
 <div class="header">
  <ul>
@@ -19,8 +57,37 @@
   <li><a href="news.html">News</a></li>
 </ul>
 </div>
+</head>
 
+<body>
+<h2>Screenshot Gallery</h2>
+<div class="responsive">
+  <div class="gallery">
+    <a href="dirt.png"><img src="dirt.png" alt="dirt" width="600" height="400"></a>
+  </div>
+</div>
+
+ <div class="responsive">
+  <div class="gallery">
+    <a href="dirt.png"><img src="dirt.png" alt="dirt" width="600" height="400"></a>
+  </div>
+</div>
+ 
+ <div class="responsive">
+  <div class="gallery">
+    <a href="dirt.png"><img src="dirt.png" alt="dirt" width="600" height="400"></a>
+  </div>
+</div>
+ 
+ <div class="responsive">
+  <div class="gallery">
+    <a href="dirt.png"><img src="dirt.png" alt="dirt" width="600" height="400"></a>
+  </div>
+</div>
+ 
+<div class="clearfix"></div>
+
+</body>
 </html>
 
-Slideshow pictures go here 
 
