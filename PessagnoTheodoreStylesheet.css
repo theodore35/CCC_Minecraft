@@ -34,6 +34,9 @@ img.icon{
     height: 150px;
     border-radius: 50%;
 }
+.imgContainer{
+    float: left;
+}
 
 .center{
     display: block;
