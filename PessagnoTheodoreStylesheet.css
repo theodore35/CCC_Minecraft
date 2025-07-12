@@ -9,6 +9,7 @@ body{
     max-width: 65vw;
     background-color:burlywood;
     min-width: 500px;
+    margin: auto;
 }
 /*
 .container{
