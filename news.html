@@ -30,6 +30,28 @@
     transform: scale(1.1);
     filter: greyscale(0%);
   }
+/*responsive*/
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24%;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49%;
+      margin: 6px 0;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 </style>
 
 </head>
@@ -44,7 +66,7 @@
       <li class="nav active"><a href="news.html">News</a></li>
     </ul>
   </div>
-  
+
   <div class="header">
     <ul class="nav">
       <li class="nav"><a href="PessagnoTheodoreHomePage.html">Home</a></li>
@@ -61,6 +83,31 @@
       <span><img src="images/dirt.png" alt="dirt"></span>
     </div>
   </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a href="images/Cherry_Lane.png"><img src="images/Cherry_Lane.png" alt="gallery" width="600" height="400"></a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a href="images/Henya_P_House.png"><img src="images/Henya_P_House.png" alt="gallery" width="600" height="400"></a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" alt="gallery" width="600" height="400"></a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a href="images/Villager_Hall.png"><img src="images/Villager_Hall.png" alt="gallery" width="600" height="400"></a>
+    </div>
+  </div>
+
 
 </body>
 </html>
