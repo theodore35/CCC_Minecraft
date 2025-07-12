@@ -8,14 +8,14 @@ body{
 .content {
   max-width: 65vw;
     background-color:burlywood;
-  margin: auto;
+  margin: 5vw;;
 }
-
+/*
 .container{
     background-color: white;
     padding: 20px;
 }
-
+*/
 
 h1,h2,h3,h4{
     color: RebeccaPurple;
