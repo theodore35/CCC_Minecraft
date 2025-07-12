@@ -1,7 +1,9 @@
 /* General Style */
 body{
-    background-color: burlywood;
+    /*background-color: burlywood;*/
     /*padding-top: 250px;*/
+    background-image: url("dirt.png");
+    background-repeat: repeat-x;
 }
 
 h1,h2,h3,h4{
