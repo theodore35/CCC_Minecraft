@@ -4,12 +4,11 @@ body{
     /*padding-top: 250px;*/
     background-image: url("images/dirt.png");
     background-repeat: repeat;
-    padding-top: 250px;
 }
 .content {
     max-width: 65vw;
     background-color:burlywood;
-    min-width: 500px
+    min-width: 500px;
 }
 /*
 .container{
