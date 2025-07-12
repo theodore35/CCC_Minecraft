@@ -62,7 +62,7 @@ img.icon{
 .header{
     width: 100%;
     height: 250;
-    position: fixed;
+    /*position: fixed;  /*Broken, hovers over page content*/
 }
 
 code{
