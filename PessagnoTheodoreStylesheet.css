@@ -6,7 +6,7 @@ body{
     background-repeat: repeat;
 }
 .content {
-  max-width: 500px;
+  max-width: 75vw;
   margin: auto;
 }
 
