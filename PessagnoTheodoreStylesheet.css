@@ -5,10 +5,16 @@ body{
     background-image: url("images/dirt.png");
     background-repeat: repeat;
 }
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
 .container{
     background-color: white;
     padding: 20px;
 }
+
 
 h1,h2,h3,h4{
     color: RebeccaPurple;
