@@ -67,12 +67,9 @@ code{
 }
 
 /* Navigation */
-/*
 .active {
   background-color: #04AA6D;
 }
-*/
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -81,11 +78,9 @@ ul{
     background-image: url("images/grass_block_wrap.png");
     background-repeat: repeat-x;
 }
-
 li{
     float: left;
 }
-
 li a{
     display: block;
     color: white;
@@ -93,8 +88,6 @@ li a{
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover{
     background-image: url("images/block_break.png");
 }
-
