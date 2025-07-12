@@ -74,7 +74,7 @@ code{
 ul{
     width: 100%;
     height: 250px;
-    background-image: src="images/grass_block_wrap.png";
+    background-image: url("images/grass_block_wrap.png");
     background-repeat: repeat-x;
 }
 
@@ -91,6 +91,6 @@ li.menu a{
 }
 
 li.menu a:hover{
-    background-image: src="images/block_break.png";
+    background-image: url("images/block_break.png");
 }
 
