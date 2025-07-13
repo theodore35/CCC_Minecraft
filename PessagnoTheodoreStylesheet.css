@@ -13,8 +13,15 @@ body{
     border: 5px solid black;
     border-radius: 10px;
     padding: 10px;
-
 }
+.post{
+    padding: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 2px 2px darkgray;
+    background-color: white;
+}
+
 /*Text*/
 h1,h2,h3,h4{
     color: RebeccaPurple;
@@ -114,6 +121,7 @@ li.nav a{
 li.nav a:hover{
     background-image: url("images/block_break.png");
 }
+
 /*Table*/
 table{
     width: 75%;
