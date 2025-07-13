@@ -15,12 +15,11 @@ body{
     padding: 10px;
 
 }
-
+/*Text*/
 h1,h2,h3,h4{
     color: RebeccaPurple;
     text-align: center;
 }
-
 p{
     font-size: 12px;
     font-family: Georgia, serif;
@@ -71,7 +70,7 @@ img.icon{
     display: table;
 }
 
-/* Other */
+/* Other Elements */
 .center{
     margin:auto;
 }
@@ -114,7 +113,6 @@ li.nav a{
 }
 li.nav a:hover{
     background-image: url("images/block_break.png");
-
 }
 /*Table*/
 table{
