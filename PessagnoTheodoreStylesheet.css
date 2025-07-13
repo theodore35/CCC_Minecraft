@@ -21,6 +21,9 @@ body{
     box-shadow: 0 2px 2px 2px darkgray;
     background-color: white;
 }
+.footer{
+    display: block;
+}
 
 /*Text*/
 h1,h2,h3,h4{
@@ -126,8 +129,15 @@ li.nav a:hover{
 table{
     width: 75%;
 }
+th{
+  text-align: center;
+}
+td{
+    text-align: left;
+}
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
     font-size: 16px;
+    vertical-align: middle;
 }

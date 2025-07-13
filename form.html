@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Site Information (head) -->
+<head>
+  <title>Cookie's Coffee Cafe</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="CCC Minecraft Forum">
+  <meta name="keywords" content="Minecraft, Survival, Creative, Hardcore">
+  <meta name="author" content="Theodore Pessagno">
+  <link rel="stylesheet" type="text/css" href="PessagnoTheodoreStylesheet.css">
+</head>
+
+<body>
+       <!-- Nav Bar -->
+    <div class="header_float">
+      <ul class="nav">
+        <li class="nav"><a href="PessagnoTheodoreHomePage.html">Home</a></li>
+        <li class="nav"><a href="gallery.html">Gallery</a></li>
+        <li class="nav active"><a href="contact.html">Contact</a></li>
+        <li class="nav"><a href="forum.html">Forum</a></li>
+        <li class="nav"><a href="news.html">News</a></li>
+        <li class="nav"><a href="about.html">About</a></li>
+      </ul>
+    </div>
+<!-- Nav Spacer -->
+  <div class="header">
+    <ul class="nav">
+    </ul>
+  </div>
+  
+    <div class="content">
+<form method="post" action="https://httpbin.org/post">
+
+    <fieldset><!-- User Name -->
+        <legend>User:</legend>
+        Minecraft IGN:<br>
+        <input type="text" name="firstname"><br>
+        Discord Handle:<br>
+        <input type="text" name="lastname"><br>
+    </fieldset>
+
+    <fieldset><!-- Age -->
+        <legend>Age:</legend>
+        Choose Age Group<br>
+        <input type="radio" name="age" value="kiddo">13-<br>
+        <input type="radio" name="age" value="teen">14-17<br>
+        <input type="radio" name="age" value="unc">18-29<br>
+        <input type="radio" name="age" value="old">30+<br>
+    </fieldset>
+
+    <fieldset><!-- Busy -->
+        <legend>Minecraft Hobbies</legend>
+        Select all that apply<br>
+        <input type="checkbox" name="hobbies" value="building">Building<br>
+        <input type="checkbox" name="hobbies" value="mining">Mining<br>
+        <input type="checkbox" name="hobbies" value="farming">Farming<br>
+        <input type="checkbox" name="hobbies" value="roleplay">Roleplay<br>
+    </fieldset>
+
+    <fieldset><!-- Biome -->
+        <legend>Favorite Biome</legend>
+        Select<br>
+        <select name="Biome">
+        <option value="plains">Plains</option>
+        <option value="forest">Forest</option>
+        <option value="ocean">Ocean</option>
+        <option value="mountain">Mountain</option>
+        <option value="other">Other</option> 
+        </select>
+    </fieldset>
+
+    <fieldset> <!-- Danger Zone -->
+        <legend>Comments:</legend>
+        <textarea name="comments" rows="15" cols="30">
+        Enter your comments here...
+        </textarea>
+    </fieldset>
+
+    <fieldset> <!-- Submit/Reset -->
+        <legend>Submit Survey:</legend>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </fieldset>
+
+</form>
+    </div>
+</body>
+</html>
