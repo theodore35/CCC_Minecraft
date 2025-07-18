@@ -7,6 +7,7 @@ body{
     max-width: 75%;
     background-color: ghostwhite;
     min-width: 500px;
+    max-width: 1000px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -22,7 +23,8 @@ body{
     background-color: white;
 }
 .footer{
-    display: block;
+    background-image: url("images/bedrock_footer.png");
+    background-repeat: repeat;
 }
 
 /*Text*/
@@ -39,19 +41,19 @@ p{
 span.boldtext{
     font-weight: bold;
 }
-
 span.italictext{
     font-style: italic;
 }
 
 /* Gallery and Images */
 div.gallery{
-    width: 75vw;
+    width: 45%;
     display: flex;
 }
 div.gallery img{
     filter: grayscale(100%); /*make pictures grey*/
     transition: transform 0.5s;
+    margin: 4px;
 }
 div.gallery img:hover{
     cursor: pointer;
@@ -59,8 +61,7 @@ div.gallery img:hover{
     filter: grayscale(0); /*add color*/
 }
 img.screenshot{
-    width: 25vw; /* vw is percentage based on view point */
-    min-width: 100px;
+    min-width: 230px;
     height: auto;
     border-radius: 15px;
     border: 2px solid black;
@@ -70,6 +71,7 @@ img.icon{
     height: 75px;
     border-radius: 50%;
 }
+
 .column {
     float: left;
     width: 33.33%;
