@@ -10,41 +10,11 @@
 <meta name="author" content="Theodore Pessagno">
 <link rel="stylesheet" type="text/css" href="PessagnoTheodoreStylesheet.css">
 
-<style>
- /* @media (min-width: 40em){
-    .split{
-     display: flex;
-     gap: 2em;
-    }
-  }*/
-
-  *{
-    margin: 0;
-    padding: 0;
-    /*box-sizing: border-box;*/
-  }
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24%;
-  }
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49%;
-      margin: 6px 0;
-    }
-  }
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-</style>
 </head>
 
 <body>
 <!-- Nav Bar -->
-<div class="header">
+<nav class="header">
   <ul class="nav">
     <li class="nav"><a href="PessagnoTheodoreHomePage.html">Home</a></li>
     <li class="nav active"><a href="gallery.html">Gallery</a></li>
@@ -53,50 +23,36 @@
     <li class="nav"><a href="news.html">News</a></li>
     <li class="nav"><a href="about.html">About</a></li>
   </ul>
-</div>
+</nav>
 
 <!-- Content -->
-<h2>Screenshot Gallery</h2>
+ <section>
+
 <div class="content">
+<h2>Screenshot Gallery</h2>
+ 
+  <div class="gallery_scroller gallery">
+    <a href="images/Cherry_Lane.png"><img src="images/Cherry_Lane.png" class="screenshot" alt="gallery"></a>
+    <a href="images/Henya_P_House.png"><img src="images/Henya_P_House.png" class="screenshot" alt="gallery"></a>
+    <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" class="screenshot" alt="gallery"></a>    
+    <a href="images/Villager_Hall.png"><img src="images/Villager_Hall.png" class="screenshot" alt="gallery"></a>
+    <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" class="screenshot" alt="Cobble Gen"></a>
+    <a href="images/Mob_Farm.png"><img src="images/Mob_Farm.png" class="screenshot" alt="Hostile mob Farm"></a>
+    <a href="images/Passive_Mobs.png"><img src="images/Passive_Mobs.png" class="screenshot" alt="Mob Farm"></a>
+    <a href="images/map_surv_theo.png"><img src="images/map_surv_theo.png" class="screenshot" alt="survuval asras"></a>
+  </div>
 
-  <div class="responsive">
-    <div class="gallery">
-      <a href="images/Cherry_Lane.png"><img src="images/Cherry_Lane.png" class="screenshot" alt="gallery"></a>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a href="images/Henya_P_House.png"><img src="images/Henya_P_House.png" class="screenshot" alt="gallery"></a>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" class="screenshot" alt="gallery"></a>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a href="images/Villager_Hall.png"><img src="images/Villager_Hall.png" class="screenshot" alt="gallery"></a>
-    </div>
-  </div>
-  
-  <!--Skyblock Images-->
-  <div class="row">
-        <div class="column">
-          <a href="images/Cobble_Shrine.png"><img src="images/Cobble_Shrine.png" class="screenshot" alt="Cobble Gen"></a>
-        </div>
-        <div class="column">
-          <a href="images/Mob_Farm.png"><img src="images/Mob_Farm.png" class="screenshot" alt="Hostile mob Farm"></a>
-        </div>
-        <div class="column"> 
-          <a href="images/Passive_Mobs.png"><img src="images/Passive_Mobs.png" class="screenshot" alt="Mob Farm"></a>
-        </div>
-      </div>
 </div>
+</section>
 
+<footer>
+  <div class="content split">
+    <h2>Join the Discord!</h2>
+      <a href="https://discord.gg/yq5a3GpsDV" style="margin: auto;"><img src="images/CCC_Discord.jpg" class="icon"></a>
+      <p><a href="https://www.minecraft.net/en-us">Download Minecraft Now</a></p>
+      <embed src="table.html" style="width:75%; height: 30%;">
+</div>
+</footer>
 </body>
 </html>
 

@@ -7,43 +7,16 @@
     <meta name="description" content="CCC Minecraft Forum">
     <meta name="keywords" content="Talk, Forums, Discussion">
     <meta name="author" content="Theodore Pessagno">
+    <link rel="stylesheet" type="text/css" href="PessagnoTheodoreStylesheet.css">
     <!-- <link rel="stylesheet" type="text/css" href="PessagnoTheodoreStylesheet.css"> -->
-<style>
-*{
-  margin: 0;
-}
-header{
-  min-height: 250px;
-}
-.container{
-  padding: 0 1em;
-  max-width: 60rem;
-  margin: 0 auto;
-  border: 2px solid red;
-}
-@media (min-width: 40em){
-  .split{
-    display: flex;
-    gap: 2em;
-  }
-}
-.text-center{
-  text-align: center;
-}
-img.icon{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
 
-</style>
 </head>
 
 <body>
 
 <!-- Nav Bar -->
-<div class="header">
-  <ul class="nav" style="background-image: url(blocks/grass_block.png);background-repeat: repeat-x;">
+<nav class="header">
+  <ul class="nav">
     <li class="nav"><a href="PessagnoTheodoreHomePage.html">Home</a></li>
     <li class="nav"><a href="gallery.html">Gallery</a></li>
     <li class="nav"><a href="table.html">Contact</a></li>
@@ -51,11 +24,11 @@ img.icon{
     <li class="nav"><a href="news.html">News</a></li>
     <li class="nav"><a href="about.html">About</a></li>
   </ul>
-</div>
+</nav>
   
 
-<section style="background-image:url(blocks/dirt_block.png); background-repeat: repeat; width: 100%;">
-  <div class="container">
+<section>
+  <div class="content">
   <h1 class="text-center">Section 1 Heading 1</h1>
     <div class="split">    
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -66,7 +39,7 @@ img.icon{
 </section>
 
 <article style="background-image:url(blocks/stone_block.png); background-repeat: repeat;">
-  <div class="container">
+  <div class="content">
     <h1 class="text-center">Section 2 Heading 1</h1>
     <div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -75,11 +48,12 @@ img.icon{
 </article>
 
 <footer style="background-image:url(blocks/bedrock_block.png); background-repeat: repeat;">
-  <div class="container split">
+  <div class="content split">
     <h2>Join the Discord!</h2>
       <a href="https://discord.gg/yq5a3GpsDV" style="margin: auto;"><img src="images/CCC_Discord.jpg" class="icon"></a>
       <p><a href="https://www.minecraft.net/en-us">Download Minecraft Now</a></p>
-  </div>
+      <embed src="table.html" style="width:75%; height: 30%;">
+</div>
 </footer>
 
 <!-- Discussion Posts -->

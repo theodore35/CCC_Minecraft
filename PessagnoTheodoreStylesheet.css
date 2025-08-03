@@ -45,7 +45,7 @@ footer{
     margin-left: auto;
     border: 5px solid black;
     border-radius: 10px;
-    padding: 0 2em; /*Relative to the font-size of the element (2em means 2 times the size of the current font)*/
+    padding: 1em 2em; /*Relative to the font-size of the element (2em means 2 times the size of the current font)*/
 }
 .post{
     padding: 1em;
@@ -85,33 +85,44 @@ span.italictext{
 }
 
 /*Images Stuffs*/
+div.gallery {
+  padding: 1rem;
+}
+div.gallery_scroller {
+  overflow-x: scroll;
+  display: flex;
+  align-items: center; 
+  background-color: beige;
+}
 div.gallery img{
     filter: grayscale(100%); /*make pictures grey*/
     transition: transform 0.5s;
-    margin: 4px;
+    margin: 1rem;  
+    /* snap align center */
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
-
 div.gallery img:hover{
     cursor: pointer;
     transform: scale(1.1);
     filter: grayscale(0); /*add color*/
 }
 img.screenshot{
-    min-width: 230px;
+    min-width: 150px;
     max-width: 500px;
-    height: auto;
+    max-height: 500px;
     border-radius: 15px;
     border: 2px solid black;
 }
 img.icon{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 /* Other Elements */
 .center{
-    margin:auto;
+    margin: auto;
 }
 
 code{
@@ -182,4 +193,11 @@ table, th, td{
     content: "";
     clear: both;
     display: table;
+}
+
+/*Clearfix to keep floats in container*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
