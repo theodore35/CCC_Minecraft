@@ -4,7 +4,6 @@ body{
     margin: 0;
 }
 .content {
-    max-width: 75%;
     background-color: ghostwhite;
     min-width: 500px;
     max-width: 60rem;
@@ -45,11 +44,11 @@ span.italictext{
     font-style: italic;
 }
 
-/* Gallery and Images */
+/* Gallery and Images 
 div.gallery{
     width: 45%;
     display: flex;
-}
+}*/
 div.gallery img{
     filter: grayscale(100%); /*make pictures grey*/
     transition: transform 0.5s;
@@ -62,6 +61,7 @@ div.gallery img:hover{
 }
 img.screenshot{
     min-width: 230px;
+    max-width: 500px;
     height: auto;
     border-radius: 15px;
     border: 2px solid black;
