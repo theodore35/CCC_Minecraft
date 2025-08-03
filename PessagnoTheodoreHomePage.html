@@ -8,11 +8,24 @@
   <meta name="keywords" content="Minecraft, Survival, Creative, Hardcore">
   <meta name="author" content="Theodore Pessagno">
   <link rel="stylesheet" type="text/css" href="PessagnoTheodoreStylesheet.css">
+<style>
+@media (min-width: 40em){
+  .split{
+    display: flex;
+    gap: 2em;
+  }
+}
+img.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+</style>
 </head>
 
 <!-- Content/Body for site -->
 <body>
-  <!-- Nav Bar Duplicate to scroll fixed on page -->
+  <!-- Nav Bar Duplicate to scroll fixed on page 
   <nav class="header_float">
     <ul class="nav">
       <li class="nav active"><a href="PessagnoTheodoreHomePage.html">Home</a></li>
@@ -22,16 +35,23 @@
       <li class="nav"><a href="news.html">News</a></li>
       <li class="nav"><a href="about.html">About</a></li>
     </ul>
-  </nav>
+  </nav>-->
   <!-- Nav Bar for site top -->
   <!-- Nav Spacer -->
   <nav class="header">
     <ul class="nav">
+      <li class="nav active"><a href="PessagnoTheodoreHomePage.html">Home</a></li>
+      <li class="nav"><a href="gallery.html">Gallery</a></li>
+      <li class="nav"><a href="table.html">Contact</a></li>
+      <li class="nav"><a href="forum.html">Forum</a></li>
+      <li class="nav"><a href="news.html">News</a></li>
+      <li class="nav"><a href="about.html">About</a></li>
     </ul>
   </nav>
 
   <!-- HomePage -->
-  <section class="content"> 
+  <section>
+    <div class="content"> 
     <h1>Cookie's Coffee Cafe Minecraft Forum</h1>
       <p>Welcome to Cookie's Coffee Cafe Minecraft Webpage. Feel free to explore the site or join in at whiki.net</p>
     
@@ -43,7 +63,11 @@
         feature to teleport back to your build area</p>
       <h4>Survival World live map</h4>
         <p><a href="http://whiki.net:8100/#survival_world:327:0:-884:1500:0:0:0:1:flat">Live map</a></p>
+    </div>
+</section>
 
+<article>
+  <div class="content">
     <hr>
     <h3>Survival</h3> <!-- Survival -->
       <p>The majority of players end up in the <span class="boldtext italictext">CCC SMP</span>, this survival mode is for soft-core or casual gamers.<br>
@@ -73,14 +97,18 @@
     </div>
 
     <!-- <embed src="contact.html" style="width:75%; height: 30%;"> -->
+</div>
+</article>
 
-<!-- close -->
-  </section>
+<!-- close 
+  </section> -->
 
-<footer>
-<p>tttttt</p>
-<br><br><br><br>
-
+<footer style="background-image:url(blocks/bedrock_block.png); background-repeat: repeat;">
+  <div class="container split">
+    <h2>Join the Discord!</h2>
+      <a href="https://discord.gg/yq5a3GpsDV" style="margin: auto;"><img src="images/CCC_Discord.jpg" class="icon"></a>
+      <p><a href="https://www.minecraft.net/en-us">Download Minecraft Now</a></p>
+  </div>
 </footer>
 
   </body>

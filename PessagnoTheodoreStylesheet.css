@@ -1,18 +1,52 @@
 body{
-    background-image: url("images/dirt.png");
-    background-repeat: repeat;
+/*    background-image: url(blocks/dirt_block.png), url(blocks/stone_block.png);
+    background-position:bottom, top;
+background-size: 100% 50%, 100% 50%;
+  background-image: url("images/dirt.png");*/
+    background-repeat: no-repeat;
     margin: 0;
+    padding: 0;
+}
+header{
+  min-height: 250px;
+}
+section{
+    background-image: url("blocks/dirt_block.png");
+    background-repeat: repeat;
+    background-size: 300px;
+    margin: 0;
+    padding: 1em;
+}
+article{
+    background-image: url("blocks/stone_block.png");
+    background-repeat: repeat;
+    background-size: 300px;
+    margin: 0;
+    padding: 1em;
+}
+footer{
+    background-image: url("blocks/bedrock_block.png");
+    background-repeat: repeat;
+    background-size: 300px;
+    padding: ;
+}
+
+
+.container{
+  padding: 0 1em;
+  max-width: 60rem;
+  margin: 0 auto;
+  border: 2px solid red;
 }
 .content {
     background-color: ghostwhite;
     min-width: 500px;
-    max-width: 60rem;
-    margin-top: 50px;
+    max-width: 60rem;/*Relative to font-size of the root element*/
     margin-right: auto;
     margin-left: auto;
     border: 5px solid black;
     border-radius: 10px;
-    padding: 0 1em;
+    padding: 0 2em; /*Relative to the font-size of the element (2em means 2 times the size of the current font)*/
 }
 .post{
     padding: 1px;
@@ -21,12 +55,9 @@ body{
     box-shadow: 0 2px 2px 2px darkgray;
     background-color: white;
 }
-.footer{
-    background-image: url("images/bedrock_footer.png");
-    background-repeat: repeat;
-}
 
-/*Text*/
+
+/*Headings and fonts*/
 h1,h2,h3,h4{
     color: RebeccaPurple;
     text-align: center;
@@ -37,6 +68,10 @@ p{
     text-align: center;
 }
 
+/* Text Specific*/
+.text-center{
+  text-align: center;
+}
 span.boldtext{
     font-weight: bold;
 }
@@ -44,11 +79,7 @@ span.italictext{
     font-style: italic;
 }
 
-/* Gallery and Images 
-div.gallery{
-    width: 45%;
-    display: flex;
-}*/
+/*Images Stuffs*/
 div.gallery img{
     filter: grayscale(100%); /*make pictures grey*/
     transition: transform 0.5s;
@@ -72,16 +103,6 @@ img.icon{
     border-radius: 50%;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 /* Other Elements */
 .center{
     margin:auto;
@@ -94,7 +115,7 @@ code{
 /* Navigation */
 .header{
     width: 100%;
-    height: 50px;
+   /* height: 50px; */
 }
 .header_float{
     width: 100%;
@@ -109,8 +130,9 @@ ul.nav{
     margin: 0;
     padding: 20px;
     overflow: hidden;
-    background-image: url("images/grass_block_wrap.png");
+    background-image: url("blocks/grass_block.png");
     background-repeat: repeat-x;
+    background-size: 300px;
 }
 li.nav{
     float: left;
@@ -142,4 +164,13 @@ table, th, td{
     border-collapse: collapse;
     font-size: 16px;
     vertical-align: middle;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
