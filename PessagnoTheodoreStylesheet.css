@@ -31,7 +31,6 @@ footer{
     padding: 1em;
 }
 
-
 .container{
   padding: 0 1em;
   max-width: 60rem;
@@ -85,6 +84,7 @@ div.gallery img{
     transition: transform 0.5s;
     margin: 4px;
 }
+
 div.gallery img:hover{
     cursor: pointer;
     transform: scale(1.1);
